@@ -1,0 +1,84 @@
+body{
+  font-family: 'Lekton', sans-serif;
+}
+
+
+.topfoot{
+  background-color:rgb(13,85,99);
+}
+#bottomfoot{
+background-color:rgb(20,93,106);
+}
+#bottomfoot a:hover {
+  color:rgb(117,248,48);
+}
+/* .page-header{
+  color:rgb(153,29,103);
+} */
+
+.nav a{
+  color:rgb(13,85,99);
+  font-size: 1.2em;
+}
+a:hover{
+  /* color:rgb(153,29,103); */
+  color:rgb(148,255,0);
+  text-shadow: 2px 2px #4c4c4c;
+}
+#active {
+  color:rgb(148,255,0);
+}
+/* a{
+  color:rgb(13,85,99);
+} */
+a:hover{
+  text-decoration:none;
+}
+#topfoot {
+  border: solid black;
+  height:100px;
+
+}
+
+.social{
+  height:64px;
+  /* border:solid; */
+  width:64px;
+}
+
+#git {
+  background: url("img/github.svg");
+  background-repeat: no-repeat;
+  background-size: 64px;
+}
+
+#git:hover {
+  background: url("img/githover.svg");
+  background-size: 64px;
+  background-repeat: no-repeat;
+}
+
+#linkedin {
+  height:64px;
+  background: url("img/link.svg");
+  background-size: 64px;
+  background-repeat: no-repeat;
+}
+
+#linkedin:hover{
+background: url("img/linkhover.svg");
+background-size: 64px;
+background-repeat: no-repeat;
+}
+#mail {
+  height:64px;
+  background: url("img/mail.svg");
+  background-size: 64px;
+  background-repeat: no-repeat;
+}
+
+#mail:hover{
+background: url("img/mailhover.svg");
+background-size: 64px;
+background-repeat: no-repeat;
+}
